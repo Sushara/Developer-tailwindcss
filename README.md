@@ -1,10 +1,11 @@
-# Monstera Landing Page
+# Crypto Landing Page
 
-A responsive and modern landing page designed for a plant, home decor, or lifestyle brand. This project features a clean layout, bold typography, and a visually appealing hero section built with Tailwind CSS.
+A responsive and modern landing page designed for a crypto, blockchain, or Web3-themed website. This project features a bold hero section, a dark visual style, and a clean navigation layout built with Tailwind CSS.
 
 ---
 
 ## Preview
+
 
 ### Laptop view
 ![img](./screenshots/laptop.png)
@@ -27,10 +28,10 @@ A responsive and modern landing page designed for a plant, home decor, or lifest
 ## Features
 
 * Responsive design for mobile and desktop
-* Clean navigation bar with menu and utility icons
-* Bold hero section with call-to-action button
-* Informational feature highlights for product care
-* Decorative background image layout
+* Full-screen hero section with background image overlay
+* Navigation bar with desktop and mobile layouts
+* Strong call-to-action buttons
+* Modern Web3-inspired visual style
 * Styled using Tailwind CSS with custom fonts
 
 ---
@@ -40,7 +41,7 @@ A responsive and modern landing page designed for a plant, home decor, or lifest
 * HTML5
 * Tailwind CSS (via CDN)
 * Font Awesome (optional)
-* Google Fonts (Montserrat, Poppins, Roboto)
+* Google Fonts (Montserrat, Orbitron, Poppins, Roboto)
 
 ---
 
@@ -51,15 +52,9 @@ project-folder/
 │
 ├── index.html
 ├── images/
-│   ├── logo.png
-│   ├── shopping-bag.png
-│   ├── user.png
-│   ├── loupe.png
-│   ├── arrow.png
-│   ├── watering-can.png
-│   ├── bulb.png
-│   ├── shovel.png
-│   └── bg.png
+│   ├── bg.jpeg
+│   ├── down-arrow.png
+│   └── flight.png
 └── README.md
 ```
 
@@ -70,7 +65,7 @@ project-folder/
 1. Download or clone the repository:
 
 ```bash
-git clone https://github.com/Sushara/Tailwind-monstera.git
+git clone https://github.com/Sushara/Tailwind-Crypto.git
 ```
 
 2. Open the project:
@@ -83,10 +78,10 @@ Open `index.html` in your browser.
 
 You can easily update the project based on your needs:
 
-* Change the brand name and hero text
-* Replace images inside the `/images` folder
-* Adjust fonts, spacing, and layout using Tailwind classes
-* Update navigation links and feature sections
+* Change the logo text and navigation items
+* Update the hero heading and button text
+* Replace the background and icon images inside the `/images` folder
+* Modify fonts, colors, and spacing using Tailwind classes
 
 ---
 
@@ -109,4 +104,4 @@ You can deploy this project using:
 
 ## License
 
-Free to use for personal and educational purposes.
+Free to use for personal and educational purp
