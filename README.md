@@ -1,61 +1,71 @@
-# Crypto Landing Page
+# Beats Headphones Landing Page
 
-A responsive and modern landing page designed for a crypto, blockchain, or Web3-themed website. This project features a bold hero section, a dark visual style, and a clean navigation layout built with Tailwind CSS.
+A responsive product landing page for **Beats 3** on-ear headphones, built with HTML and Tailwind CSS.
 
 ---
 
 ## Preview
 
-
 ### Laptop view
-![img](./screenshots/laptop.png)
+![img](./screenshots/laptop.jpeg)
 
 ---
 ### iPad view
-![img](./screenshots/ipad.png)
+![img](./screenshots/ipad.jpeg)
 
 ---
 ### Tab view
-![img](./screenshots/tab.png)
+![img](./screenshots/tab.jpeg)
 
 ---
 
 ### Mobile view
-![img](./screenshots/mobile.png)
-
----
-
-## Features
-
-* Responsive design for mobile and desktop
-* Full-screen hero section with background image overlay
-* Navigation bar with desktop and mobile layouts
-* Strong call-to-action buttons
-* Modern Web3-inspired visual style
-* Styled using Tailwind CSS with custom fonts
+![img](./screenshots/mobile.jpeg)
 
 ---
 
 ## Tech Stack
 
-* HTML5
-* Tailwind CSS (via CDN)
-* Font Awesome (optional)
-* Google Fonts (Montserrat, Orbitron, Poppins, Roboto)
+- **HTML5**
+- **Tailwind CSS** (via CDN — `@tailwindcss/browser@4` + `cdn.tailwindcss.com`)
+- **Font Awesome 7** (icons)
+- **Google Fonts** — Poppins, Montserrat, Roboto, Orbitron
 
 ---
 
 ## Project Structure
 
-```bash
-project-folder/
-│
+```
+project/
 ├── index.html
 ├── images/
-│   ├── bg.jpeg
-│   ├── down-arrow.png
-│   └── flight.png
-└── README.md
+│   ├── mainImage.png
+│   ├── beatsLogo.png
+│   ├── specsImage.png
+│   ├── caseImage.png
+│   ├── buyNowSectionImage.png
+│   ├── appleLogo.png
+│   ├── spotifyLogo.png
+│   ├── amazonLogo.png
+│   ├── youtubeLogo.png
+│   ├── flight.png
+│   ├── black.png
+│   ├── blue.png
+│   ├── redBlack.png
+│   ├── twilightGray.png
+│   └── nightBlack.png
+└── Icons/
+    ├── shoppingBag.png
+    ├── bluetooth.png
+    ├── battery.png
+    ├── charger.png
+    ├── mic.png
+    ├── group.png
+    ├── rightArrow.png
+    ├── facebook.png
+    ├── twitter.png
+    ├── instagram.png
+    └── linkedin.png
 ```
 
 ---
@@ -65,7 +75,7 @@ project-folder/
 1. Download or clone the repository:
 
 ```bash
-git clone https://github.com/Sushara/Tailwind-Crypto.git
+git clone https://github.com/Sushara/Beats.git
 ```
 
 2. Open the project:
@@ -76,12 +86,12 @@ Open `index.html` in your browser.
 
 ## Customization
 
-You can easily update the project based on your needs:
+You can easily customize the project:
 
-* Change the logo text and navigation items
-* Update the hero heading and button text
-* Replace the background and icon images inside the `/images` folder
-* Modify fonts, colors, and spacing using Tailwind classes
+* Update heading and description text
+* Replace images inside the `/images` folder
+* Modify fonts and spacing using Tailwind classes
+* Update navigation items
 
 ---
 
@@ -97,11 +107,11 @@ You can deploy this project using:
 
 ## Notes
 
-* This project uses Tailwind CSS via CDN, so no build process is required
-* Internet connection is required for external fonts and icons to load
+* This project uses Tailwind via CDN, so no build setup is required
+* Internet connection is required for fonts and icons to load
 
 ---
 
 ## License
 
-Free to use for personal and educational purp
+Free to use for personal and educational purposes.

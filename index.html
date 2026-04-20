@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crypto</title>
+    <title>Beats</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,49 +36,36 @@
       };
     </script>
 </head>
-<body class="bg-[url('./images/bg.jpeg')] bg-no-repeat bg-center bg-cover font-poppins">
-    <div class="bg-black/40 overlay w-screen h-screen z-[-1] absolute"></div>
-    <main class="min-h-screen text-white">
-        
-        <nav class="flex justify-between items-center xl:px-20 px-8 py-5">
-            <h1 class="text-4xl font-bold">L<span class="text-cyan-400">O</span>g<span>O</span></h1>
-            <div class="hidden xl:flex gap-6 items-center">
+<body class="bg-neutral-900 font-poppins">
+   
+    <main class="min-h-screen text-white w-full max-w-none lg:max-w-[80%] mx-auto relative px-4">
+        <div class="absolute w-[30%] sm:w-[22%] h-auto top-0 left-[20%] sm:left-[10%]">
+            <img src="./images/mainImage.png" alt="">
+        </div>
+        <nav class="flex justify-between items-center px-4 sm:px-6 xl:px-20 py-5">
+             <div class="w-8 h-8">
+                <img src="./images/beatsLogo.png" alt="Logo" class="w-full h-full">
+            </div>
+            <div class="hidden lg:flex gap-6 items-center">
                 <ul class="gap-6 flex font-medium lg:text-base text-xs">
                     <li class="relative group cursor-pointer pr-4">
-                        <span class="flex items-center">Apps
-                            <img class="w-8 h-8 opacity-0 translate-y-[-2px] transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0" src="./images/down-arrow.png" alt="">
-                        </span>
-                        <span class="absolute right-0 top-4/4 -translate-y-1/2 h-[2em] w-[1px] bg-white opacity-0 transition-all duration-200 group-hover:opacity-100"></span>
+                        Home
                     </li>
                     <li class="relative group cursor-pointer pr-4">
-                        <span class="flex items-center">DAO
-                            <img class="w-8 h-8 opacity-0 translate-y-[-2px] transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0" src="./images/down-arrow.png" alt="">
-                        </span>
-                        <span class="absolute right-0 top-4/4 -translate-y-1/2 h-[2em] w-[1px] bg-white opacity-0 transition-all duration-200 group-hover:opacity-100"></span>
+                        Specs
                     </li>
                     <li class="relative group cursor-pointer pr-4">
-                        <span class="flex items-center">Technology
-                            <img class="w-8 h-8 opacity-0 translate-y-[-2px] transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0" src="./images/down-arrow.png" alt="">
-                        </span>
-                        <span class="absolute right-0 top-4/4 -translate-y-1/2 h-[2em] w-[1px] bg-white opacity-0 transition-all duration-200 group-hover:opacity-100"></span>
+                        Case
                     </li>
                     <li class="relative group cursor-pointer pr-4">
-                        <span class="flex items-center">Token
-                            <img class="w-8 h-8 opacity-0 translate-y-[-2px] transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0" src="./images/down-arrow.png" alt="">
-                        </span>
-                        <span class="absolute right-0 top-4/4 -translate-y-1/2 h-[2em] w-[1px] bg-white opacity-0 transition-all duration-200 group-hover:opacity-100"></span>
-                    </li>
-                    <li class="relative group cursor-pointer pr-4">
-                        <span class="flex items-center">Contributors
-                            <img class="w-8 h-8 opacity-0 translate-y-[-2px] transition-all duration-200 group-hover:opacity-100 group-hover:translate-y-0" src="./images/down-arrow.png" alt="">
-                        </span>
-                        <span class="absolute right-0 top-4/4 -translate-y-1/2 h-[2em] w-[1px] bg-white opacity-0 transition-all duration-200 group-hover:opacity-100"></span>
+                       Products
                     </li>
                 </ul>
+                <button class="text-sm hidden lg:block py-1 px-10 bg-neutral-800 rounded-md border-transparent border-2 font-light">Shop</button>
             </div>
-            <button class="hidden xl:block py-1 px-5 bg-fuchsia-600 rounded-md border-transparent border-2 bg-black font-medium">Buy 1 Token</button>
+            
          
-            <div class="xl:hidden flex gap-5">
+            <div class="lg:hidden flex gap-5">
                 <div class="w-5 h-5">
                     <img src="./images/flight.png" alt="">
                 </div>
@@ -86,13 +73,246 @@
             </div>
            
         </nav>
-        <section class="flex justify-center items-center xl:px-5 xl:py-5 px-6 xl:mt-20 md:mt-20 mt-10">
-            <div class="lg:w-[700px] md:w-[500px] text-center">
-                <h2 class="font-bold xl:text-6xl lg:text-5xl text-4xl mb-5">Let's build a better tomorrow, together.</h2>
-                <p class="font-medium mb-5">Buy 1 Token. Join the DAO. Change the world!</p>
-                <button class="px-5 py-1 bg-fuchsia-600 rounded-md border-transparent border-2 bg-black font-semibold text-lg">Request Early Access</button>
+       
+        <section class="flex justify-center md:justify-end xl:px-5 xl:py-5 xl:mt-20 md:mt-20 mt-10 mb-30">
+            <div class="w-full max-w-md text-center md:text-left">
+                <h1 class="md:ml-10 md:mt-0 mt-28 mb-5 md:mb-0 text-5xl sm:text-6xl lg:text-7xl font-semibold bg-gradient-to-b from-neutral-700 via-neutral-700 to-neutral-700 bg-clip-text text-transparent">On ear</h1>
+                <h2 class="font-semibold xl:text-5xl lg:text-4xl text-3xl md:mb-10 mb-5">Beats 3</h2>
+                <h3 class="font-semibold mb-5">Overview</h3>
+                <p class="text-sm/8 mb-10 font-light">
+                    Enjoy award-winning Beats sound with wireless listening freedom and a sleek,
+                    streamlined design with comfortable padded earphones, delivering first-rate playback.
+                </p>
+
+                <button class="px-5 py-2 rounded-md bg-neutral-800 border-transparent border-2 font-semibold text-lg flex items-center gap-4 mx-auto lg:mx-0">
+                    <img src="./Icons/shoppingBag.png" alt="">
+                    <span class="text-xs font-light">Add to Bag</span>
+                    <span class="text-sm">N399K</span>
+                </button>
+            </div>
+            
+        </section>
+
+        <section class="mb-16">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 items-center justify-items-center">
+                
+                <img src="./images/appleLogo.png" alt="" class="w-20 sm:w-24">
+                <img src="./images/spotifyLogo.png" alt="" class="w-20 sm:w-24">
+                <img src="./images/amazonLogo.png" alt="" class="w-20 sm:w-24">
+                <img src="./images/youtubeLogo.png" alt="" class="w-20 sm:w-24">
+                
             </div>
         </section>
+        <section class="flex justify-center mb-30">
+            <div class="w-full max-w-md text-center lg:text-left relative">
+                <div class="relative mb-10 md:absolute md:w-[60%] md:h-[60%] md:top-30 md:right-0 flex justify-center">
+                    <img src="./images/specsImage.png" alt="" class="w-48 sm:w-64 md:w-full max-w-sm">
+                </div>
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl text-center mb-10 sm:mb-16 font-semibold bg-gradient-to-b from-neutral-700 via-neutral-700 to-neutral-700 bg-clip-text text-transparent">Specs</h2>
+                <div class="flex flex-col md:ml-10 mb-5 items-center md:items-start">
+                    <img src="./Icons/bluetooth.png" alt="" class="w-4">
+                    <h3 class="font-semibold mb-1">Connection</h3>
+                    <p class="font-light text-sm">Bluetooth v5.2</p>
+                </div>
+                <div class="flex flex-col md:ml-0 mb-5 items-center md:items-start">
+                    <img src="./Icons/battery.png" alt="" class="w-4">
+                    <h3 class="font-semibold mb-1">Battery</h3>
+                    <p class="font-light text-sm">Duration 40h</p>
+                </div>
+                <div class="flex flex-col md:ml-0 mb-5 items-center md:items-start">
+                    <img src="./Icons/charger.png" alt="" class="w-4">
+                    <h3 class="font-semibold mb-1">Load</h3>
+                    <p class="font-light text-sm">Fast charge 4.2-AAC</p>
+                </div>
+                <div class="flex flex-col md:ml-10 mb-5 items-center md:items-start">
+                    <img src="./Icons/mic.png" alt="" class="w-4">
+                    <h3 class="font-semibold mb-1">Microphone</h3>
+                    <p class="font-light text-sm">Supports Apple Siri<br>and Google</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="flex justify-center mb-16 items-center sm:mb-30">
+            <div class="w-full max-w-4xl sm:max-w-md text-center lg:text-left">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl mb-10 sm:mb-16 text-center font-semibold bg-gradient-to-b from-neutral-700 via-neutral-700 to-neutral-700 bg-clip-text text-transparent">
+                Case
+                </h2>
+
+                <div class="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
+                     <div class="flex-1">
+                        <img src="./images/caseImage.png" alt="" class="w-48 sm:w-64 md:w-full max-w-sm h-auto">
+                    </div>
+
+                    <div class="flex-1">
+                        <p class="mb-5 text-sm/6 font-light">
+                            With a comfortable and adaptable case so that you can store it whenever you want, and keep your durability forever.
+                        </p>
+                        <button class="px-5 py-2 rounded-md bg-neutral-800 border-transparent border-2 font-semibold text-lg flex items-center gap-2 mx-auto lg:mx-0">
+                            <img src="./Icons/group.png" alt="">
+                            <span class="text-sm font-light">More info</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="bg-neutral-800 px-4 sm:px-8 lg:px-12 py-8 sm:py-10 rounded-md mb-16 w-[90%] max-w-4xl mx-auto">
+            <div class="flex flex-col-reverse md:flex-row items-center justify-evenly gap-8">
+                
+                <div class="text-center md:text-left">
+                    <h3 class="font-semibold mb-4 text-xl sm:text-2xl">
+                        Immerse yourself in<br class="hidden sm:block"> your music
+                    </h3>
+                    <p class="text-xs sm:text-sm mb-5 font-light">
+                        Buy Now, up to 40% off.
+                    </p>
+                    <button class="px-5 py-2 rounded-md bg-black border-transparent border-2 font-semibold text-lg flex items-center gap-2 mx-auto md:mx-0">
+                        <img src="./Icons/shoppingBag.png" alt="">
+                        <span class="text-sm font-light">Buy now</span>
+                    </button>
+                </div>
+
+                <div class="w-40 sm:w-52 md:w-64 lg:w-72">
+                    <img src="./images/buyNowSectionImage.png" alt="" class="w-full h-auto">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="flex justify-center mb-30 items-center">
+            <div class="text-center lg:text-left">
+                <h2 class="text-5xl sm:text-6xl lg:text-7xl mb-16 text-center font-semibold bg-gradient-to-b from-neutral-700 via-neutral-700 to-neutral-700 bg-clip-text text-transparent">Choose<br>Your Style</h2>
+                
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                     <div class="bg-neutral-800 rounded-md relative px-5 py-5 min-w-50 min-h-50 mb-20">
+                        <div class="absolute top-[-40px] px-5 left-0 w-full flex justify-center">
+                            <img class="w-30" src="./images/black.png" alt="">
+                        </div>
+                        <div class="flex gap-6 items-center absolute bottom-5 justify-between w-full px-5 left-0">
+                            <div>
+                                <h6 class="text-sm font-semibold">Black</h6>
+                                <p class="text-sm font-light">N299K</p>
+                            </div>
+                            <div class="w-10 h-10 flex p-2 bg-black rounded-md justify-center">
+                                <img src="./Icons/shoppingBag.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="bg-neutral-800 rounded-md relative px-5 py-5 min-w-50 min-h-50 mb-20">
+                        <div class="absolute top-[-40px] px-5 left-0 w-full flex justify-center">
+                            <img class="w-30" src="./images/blue.png" alt="">
+                        </div>
+                        <div class="flex gap-6 items-center absolute bottom-5 justify-between w-full px-5 left-0">
+                            <div>
+                                <h6 class="text-sm font-semibold">Blue</h6>
+                                <p class="text-sm font-light">N299K</p>
+                            </div>
+                            <div class="w-10 h-10 flex p-2 bg-black rounded-md justify-center">
+                                <img src="./Icons/shoppingBag.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="bg-neutral-800 rounded-md relative px-5 py-5 min-w-50 min-h-50 mb-20">
+                        <div class="absolute top-[-40px] px-5 left-0 w-full flex justify-center">
+                            <img class="w-30" src="./images/redBlack.png" alt="">
+                        </div>
+                        <div class="flex gap-6 items-center absolute bottom-5 justify-between w-full px-5 left-0">
+                            <div>
+                                <h6 class="text-sm font-semibold">Red Black</h6>
+                                <p class="text-sm font-light">N299K</p>
+                            </div>
+                            <div class="w-10 h-10 flex p-2 bg-black rounded-md justify-center">
+                                <img src="./Icons/shoppingBag.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-neutral-800 rounded-md relative px-5 py-5 min-w-50 min-h-50 mb-20">
+                        <div class="absolute top-[-40px] px-5 left-0 w-full flex justify-center">
+                            <img class="w-30" src="./images/twilightGray.png" alt="">
+                        </div>
+                        <div class="flex gap-6 items-center absolute bottom-5 justify-between w-full px-5 left-0">
+                            <div>
+                                <h6 class="text-sm font-semibold">Twilight Gray</h6>
+                                <p class="text-sm font-light">N299K</p>
+                            </div>
+                            <div class="w-10 h-10 flex p-2 bg-black rounded-md justify-center">
+                                <img src="./Icons/shoppingBag.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                     <div class="bg-neutral-800 rounded-md relative px-5 py-5 min-w-50 min-h-50 mb-20">
+                        <div class="absolute top-[-40px] px-5 left-0 w-full flex justify-center">
+                            <img class="w-30" src="./images/nightBlack.png" alt="">
+                        </div>
+                        <div class="flex gap-6 items-center absolute bottom-5 justify-between w-full px-5 left-0">
+                            <div>
+                                <h6 class="text-sm font-semibold">Night Black</h6>
+                                <p class="text-sm">N299K</p>
+                            </div>
+                            <div class="w-10 h-10 flex p-2 bg-black rounded-md justify-center">
+                                <img src="./Icons/shoppingBag.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+        
+        <section class="mb-16">
+            <div class="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-between gap-10">
+                
+                <div class="flex justify-center md:justify-start">
+                <img src="./images/beatsLogo.png" alt="" class="w-10 h-10">
+                </div>
+
+                <div class="text-center md:text-left">
+                <h3 class="mb-5 font-semibold">Products</h3>
+                <ul class="text-sm font-light">
+                    <li class="mb-3">Headphones</li>
+                    <li class="mb-3">Earphones</li>
+                    <li class="mb-3">Earbuds</li>
+                    <li class="mb-3">Accessories</li>
+                </ul>
+                </div>
+
+                <div class="text-center md:text-left">
+                <h3 class="mb-5 font-semibold">Support</h3>
+                <ul class="text-sm font-light">
+                    <li class="mb-3">Product help</li>
+                    <li class="mb-3">Register</li>
+                    <li class="mb-3">Updates</li>
+                    <li class="mb-3">Provider</li>
+                </ul>
+                </div>
+
+                <div class="w-full md:max-w-[350px]">
+                <div class="flex flex-col sm:flex-row gap-3 bg-neutral-800 rounded-md p-3 items-stretch sm:items-center mb-5 w-full">
+                    <div class="flex-1">
+                    <p class="text-sm font-light text-center sm:text-left">Email</p>
+                    </div>
+
+                    <div class="flex gap-2 bg-black rounded-md py-3 px-4 justify-center items-center">
+                    <img src="./Icons/rightArrow.png" alt="">
+                    <button class="text-sm font-light">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="flex gap-3 justify-center md:justify-start">
+                    <img src="./Icons/facebook.png" alt="">
+                    <img src="./Icons/twitter.png" alt="">
+                    <img src="./Icons/instagram.png" alt="">
+                    <img src="./Icons/linkedin.png" alt="">
+                </div>
+                </div>
+
+            </div>
+        </section>
+    
     </main>
 </body>
 </html>
